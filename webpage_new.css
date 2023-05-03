@@ -1,0 +1,79 @@
+span{
+    transform:scale(1.4);
+}
+br{
+    display: block;
+}
+
+/* 主色#1b3a59 副色：#99bd60*/
+*{
+    font-family:微軟正黑體;  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b3a59;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#active {
+    background-color: #99bd60;
+}
+
+#myDiv {
+    position: fixed;
+    top: 72%;
+    right: 7%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+  }
+
+  #myDiv p {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+  }
+
+  #myDiv p:first-of-type {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+  }
+
+  #myDiv a {
+    display: block;
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  #myDiv a:hover {
+    text-decoration: underline;
+  }
+
